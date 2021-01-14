@@ -8,7 +8,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['src/**/*.tsx?', 'rest/**/*.tsx?'],
+      files: ['src/**/*.tsx?'],
       rules: {
         // use sorting of simple-import-sort and disable others
         'sort-imports': 'off',
