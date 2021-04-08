@@ -3,7 +3,7 @@ module.exports = {
   extends: ['react-app', 'react-app/jest', 'prettier'],
   plugins: ['simple-import-sort', 'prettier'],
   rules: {
-    'prettier/prettier': 'error',
+    'prettier/prettier': ['error', { endOfLine: 'auto' }],
     'simple-import-sort/sort': 'off',
   },
   overrides: [
